@@ -1,0 +1,16 @@
+.reusable-button button {
+  display: flex;
+  place-content: center;
+  color: var(--faded-white);
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  padding-block: 1rem;
+  border-radius: 0.7rem;
+  background-color: var(--button-clr);
+  cursor: pointer;
+}
+.reusable-button button:hover,
+.reusable-button button:focus {
+  background-color: var(--nypd-blue);
+}

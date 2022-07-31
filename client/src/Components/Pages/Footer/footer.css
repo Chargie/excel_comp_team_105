@@ -1,0 +1,35 @@
+.footer {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 1rem;
+  padding: 1rem;
+  color: white;
+  background-color: var(--nypd-blue);
+  font: 200 1rem var(--ff-manrope);
+  line-height: 2rem;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+.grid-container h4 {
+  padding-block-end: 1rem;
+}
+@media screen and (min-width: 500px) {
+  .grid-container {
+    grid-template-columns: repeat(4, 1fr);
+    padding-inline: 2rem;
+  }
+}
+a:hover {
+  text-decoration: underline;
+}
+.image {
+  max-width: 65%;
+  cursor: pointer;
+}
+.image:hover,
+.image:focus {
+  opacity: 0.8;
+}

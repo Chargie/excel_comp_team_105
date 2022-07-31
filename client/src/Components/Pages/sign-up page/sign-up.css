@@ -1,0 +1,347 @@
+.SignUpContainer{
+    background-color: #1D5C67;
+    height: 100vh;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+}
+.logo {
+    position: absolute;
+    width: 176px;
+    height: 55px;
+    left: 121.75px;
+    top: 42px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #E1E2E2;
+    cursor: pointer;
+}
+.welcome {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #267A89;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.welcome p {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 32px;
+    color: #818585;
+    cursor: pointer;
+}
+.form {
+    border-radius: 16px;
+    width: 50%;
+    height: 80%;
+    background-color: hsl(0, 0%, 96%);
+    margin: auto;
+    padding: 58px 75px;
+}
+.label {
+    color: #267A89;
+    cursor: pointer;
+}
+.inputbox {
+    background-color: #FFFFFF;
+    border: 1px solid #267A89;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.inputbox input {
+    border: none;
+    outline: none;
+    background-color: none;
+    width: 220px;
+}
+
+.checkbox  {
+    color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+.ppolicy {
+    padding-left: 15px;
+}
+.crtAccount {
+    text-align: center;
+    padding: 20px;
+}
+button {
+    padding: 10px 50px;
+    border-radius: 10px;
+    margin-top: 0.5em;
+    background-color: #1D5C67;
+    color: white;
+}
+button:hover {
+    background-color: #377681;    
+}
+.sgnWitGogle {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #818585;
+    cursor: pointer;
+  }
+  .HaveAnAcc span {
+    color: #818585;
+    cursor: pointer;
+  }
+  .HaveAnAcc a {
+    color: #267A89;
+  }
+  .GoogleLogo {
+    font-size: 30px;
+  }
+  .sgnWitGogle{
+    margin-top: 2em;
+    color: #1D5C67;
+  }
+
+  /*** media query starts here***/
+
+  @media  (min-width: 220px) and (max-width: 280px) {
+    .form {
+        width: 90%;
+        height: 80%;
+        padding: 20px 5px;
+    }
+    .logo {
+        left: 30px;
+        top: 12px;
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .welcome p {
+        font-size: 15px;
+    }
+    .inputbox input {
+        width: 209px;
+    }
+    button {
+        padding: 5px 9px;
+    }
+    .inputbox {
+        padding: 10px;
+        margin-bottom: 3px;
+        margin-top: 2px;
+    }
+    .checkbox span {
+        font-size: 12px;
+    }
+    .ppolicy {
+        font-size: 12px;
+        padding-left: 15px;
+    }
+    .sgnWitGogle  {
+        margin: 0;
+    }
+    .GoogleLogo {
+        font-size: 17px;
+    }
+    .crtAccount {
+        padding: 7px;
+    }
+    .HaveAnAcc {
+        display: flex;
+        flex-direction: column;
+    }
+  }
+
+  @media (min-width: 281px) and (max-width: 375px) {
+
+    .form {
+        width: 90%;
+        height: 82%;
+        padding: 20px 15px;
+    }
+    .logo {
+        left: 25px;
+        top: 8px;
+        font-size: 26px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .welcome p {
+        font-size: 15px;
+    }
+    .inputbox input {
+        width: 209px;
+    }
+    button {
+        padding: 5px 9px;
+    }
+    .inputbox {
+        padding: 10px;
+        margin-bottom: 3px;
+        margin-top: 2px;
+    }
+    .checkbox span {
+        font-size: 15px;
+    }
+    .ppolicy {
+        font-size: 15px;
+        padding-left: 15px;
+    }
+    .sgnWitGogle  {
+        margin: 0;
+    }
+    .GoogleLogo {
+        font-size: 19px;
+    }
+    .crtAccount {
+        padding: 7px;
+    }
+    .HaveAnAcc {
+        display: flex;
+        flex-direction: column;
+    }
+   
+  }
+  @media (min-width: 376px) and (max-width: 414px) {
+    .form {
+        width: 90%;
+        height: 78%;
+        padding: 20px 15px;
+    }
+    .logo {
+        left: 25px;
+        top: 19px;
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .welcome p {
+        font-size: 15px;
+    }
+    .inputbox input {
+        width: 209px;
+    }
+    button {
+        padding: 5px 9px;
+    }
+    .inputbox {
+        padding: 10px;
+        margin-bottom: 3px;
+        margin-top: 2px;
+    }
+    .checkbox span {
+        font-size: 15px;
+    }
+    .ppolicy {
+        font-size: 15px;
+        padding-left: 15px;
+    }
+    .sgnWitGogle  {
+        margin-top: 2em;
+    }
+    .GoogleLogo {
+        font-size: 19px;
+    }
+    .crtAccount {
+        padding: 7px;
+    }
+    .HaveAnAcc {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (min-width: 410px) and (max-width: 912px) {
+    .form {
+        width: 90%;
+        /* height: 80%; */
+        padding: 20px 15px;
+    }
+    .logo {
+        left: 55px;
+        top: 19px;
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 25px;
+    }
+    .welcome p {
+        font-size: 15px;
+    }
+    .inputbox input {
+        width: 209px;
+    }
+    button {
+        padding: 5px 9px;
+    }
+    .inputbox {
+        padding: 10px;
+        margin-bottom: 3px;
+        margin-top: 2px;
+    }
+    .checkbox span {
+        font-size: 15px;
+    }
+    .ppolicy {
+        font-size: 15px;
+        padding-left: 15px;
+    }
+    .sgnWitGogle  {
+        margin-top: 2em;
+    }
+    .GoogleLogo {
+        font-size: 19px;
+    }
+    .crtAccount {
+        padding: 7px;
+    }
+    .HaveAnAcc {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (width: 820px) {
+    .form {
+        width: 80%;
+    }
+}
+@media (width: 1024px) {
+    .form {
+        width: 50%;
+        height: 90%;
+        padding: 20px 30px;
+    }
+    .logo {
+        left: 50px;
+    }
+    .inputbox {
+        margin: 5px 5px;
+        padding: 10px;
+    }
+    .sgnWitGogle  {
+        margin-top: 0;
+    }
+    .crtAccount {
+       padding: 10px; 
+    }
+}
+@media (width: 1280px) {
+    .form {
+        height: 85%;
+    }
+}

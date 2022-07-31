@@ -1,0 +1,20 @@
+.input-container {
+  display: flex;
+  flex-flow: column;
+  place-content: center;
+}
+.input-container label {
+  font-weight: 500;
+  color: var(--nypd-blue);
+}
+.input-container input {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1.5rem 0.5rem 0.5rem;
+  border: 1px solid var(--nypd-blue);
+  border-radius: 5px;
+}
+.input-container input::placeholder {
+  color: var(--grey-clr);
+  font-family: var(--ff-montserrat);
+}

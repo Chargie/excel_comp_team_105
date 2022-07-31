@@ -6,6 +6,64 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+/* FONTS */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap");
+
+/* CSS RESETS */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+ul,
+ol,
+a {
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+/* ----------------- */
+/* CUSTOM VARIABLES */
+/* ---------------- */
+:root {
+  /* COLORS */
+  --nypd-blue: hsl(189, 57%, 34%);
+  --button-clr: hsl(189, 56%, 26%);
+  --faded-white: hsl(0, 0%, 96%);
+  --grey-clr: hsl(180, 2%, 61%);
+
+  /* FONTS */
+  --ff-manrope: "Manrope", sans-serif;
+  --ff-montserrat: "Montserrat", sans-serif;
+}
+body {
+  font-family: var(--ff-manrope);
+  font-size: 16px;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

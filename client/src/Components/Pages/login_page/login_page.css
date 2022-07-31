@@ -1,0 +1,173 @@
+.loginContainer{
+    background-color: #1D5C67;
+    height: 100vh;
+    width: 100%;
+    -webkit-font-smoothing: antialiased;
+    display: flex;
+}
+h1 {
+    position: absolute;
+    width: 176px;
+    height: 55px;
+    left: 121.75px;
+    top: 42px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #E1E2E2;
+}
+h2 {
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 55px;
+    color: #267A89;
+}
+form {
+    border-radius: 16px;
+    width: 50%;
+    height: 80%;
+    background-color: hsl(0, 0%, 96%);
+    margin: auto;
+    padding: 178px 75px;
+}
+label {
+    color: #267A89;
+    cursor: pointer;
+}
+.inputbox {
+    background-color: #FFFFFF;
+    border: 1px solid #267A89;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.inputbox input {
+    border: none;
+    outline: none;
+    background-color: none;
+    width: 126px;
+}
+
+.checkbox span {
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 5px;
+    cursor: pointer;
+}
+
+.button {
+    text-align: center;
+}
+button {
+    padding: 10px 50px;
+    border-radius: 10px;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+    background-color: #1D5C67;
+    color: white;
+}
+button:hover {
+    background-color: #377681;    
+}
+.forgotReset {
+    text-align: center;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #818585;
+    cursor: pointer;
+  }
+  .forgotReset span{
+    color: #1D5C67;
+  }
+
+  /*** media query starts here***/
+
+  @media  (min-width: 220px) and (max-width: 280px) {
+    form {
+        width: 90%;
+        height: 68%;
+        padding: 68px 35px;
+    }
+    h1 {
+        left: 70px;
+        top: 32px;
+        font-size: 30px;
+    }
+    .inputbox input {
+        width: 110px;
+    }
+    button {
+        padding: 10px 30px;
+    }
+    
+    
+  }
+  @media (min-width: 281px) and (max-width: 375px) {
+    form {
+        width: 80%;
+        height: 68%;
+        padding: 68px 35px;
+    }
+    h1 {
+        left: 105px;
+        top: 32px;
+        font-size: 30px;
+    }
+    .inputbox input {
+        width: 110px;
+    }
+    
+  }
+  @media (min-width: 376px) and (max-width: 414px) {
+    form {
+        width: 80%;
+        height: 60%;
+        padding: 68px 35px;
+    }
+    h1 {
+        left: 105px;
+    }
+}
+@media (min-width: 416px) and (max-width: 580px) {
+    form {
+        width: 80%;
+        height: 68%;
+        padding: 68px 35px;
+    }
+    h1 {
+        left: 50px;
+        font-size: 30px;
+    }
+}
+  @media (min-width: 616px) and (max-width: 912px) {
+    form {
+        width: 80%;
+        height: 58%;
+        padding: 68px 35px;
+    }
+    h1 {
+        left: 80px;
+    }
+  }
+  @media (min-width: 770x) and (max-width: 900px) {
+    form {
+        height: 75%;
+        padding: 68px 35px;
+    }
+    h1 {
+        left: 30px;
+    }
+}
+    @media (min-width: 901px) and (max-width: 1024px) {
+        h1 {
+            left: 50px;
+        }
+    }
+  
